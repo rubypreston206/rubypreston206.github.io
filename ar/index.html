@@ -23,22 +23,23 @@
 
       <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
 
-        <a-sphere
-        radius="2"
-        position= "0 0 0"
+        <a-box 
+         width="2"
+         height="2"
+         depth="2"
+        rotation="0 0 0"
         src="image3.png"
-        env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
-        animation="
-         property: rotation; 
-         from: 0 0 0; 
-         to: 0 360 0; 
-         easing: linear; 
-         dur: 10000; 
-         loop:true"
-          >                  
-        </a-sphere>
+         position="0 0.5 0" 
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="1.0"
+         roughness="0.0"          
+         >                 
+   </a-box>                       
+        
+ 
+  
 
       </a-marker>
 
