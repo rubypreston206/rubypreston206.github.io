@@ -56,13 +56,13 @@ body {
  }
 
  div.second {
-    font-size: 150px;
+    font-size: 80px;
     color: blue;
     font-family:'ImpactNew';
     text-transform: capitalize;
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 40px;
+    margin-top: 115px;
+    margin-bottom: 15px;
 }
  
  
