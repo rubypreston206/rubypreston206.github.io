@@ -4,7 +4,10 @@ body {
  
  }
  
- 
+ @font-face {
+    font-family: 'ImpactNew';
+    src: url("impact.ttf") format('truetype');
+ }
  
  
  div.details {
@@ -17,7 +20,7 @@ body {
  div.title {
      font-size: 150px;
    
-     font-family: Impact;
+     font-family: 'ImpactNew';
      text-transform: capitalize;
      
      text-align: center;
