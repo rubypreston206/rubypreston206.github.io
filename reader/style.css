@@ -8,6 +8,12 @@ body {
     font-family: 'ImpactNew';
     src: url("impact.ttf") format('truetype');
  }
+
+ @font-face {
+    font-family: 'ComicNew';
+    src: url("COMIC.TTF") format('truetype');
+ }
+ 
  
  
  div.details {
@@ -42,7 +48,7 @@ body {
  div.subtitle {
      font-size: 40px;
      color: blue;
-     font-family:'ImpactNew';
+     font-family:'ComicNew';
      text-transform: capitalize;
      text-align: center;
      margin-top: 60px;
