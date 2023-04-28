@@ -27,6 +27,17 @@ body {
      margin-bottom: 50px;
  
  }
+
+ div.title2 {
+    font-size: 150px;
+    color: blue;
+    font-family: 'ImpactNew';
+    text-transform: capitalize;
+    
+    text-align: center;
+    margin-bottom: 50px;
+
+}
  
  div.subtitle {
      font-size: 40px;
@@ -35,14 +46,15 @@ body {
      text-transform: capitalize;
      text-align: center;
      margin-top: 60px;
-     margin-bottom: 60px;
+     margin-bottom: 120px;
  }
  
  
  div.text {
  
-     font-size: 40px;
-     
+     font-size: 22px;
+     padding: 22px;
+     font-weight: bold;
      font-family: Arial, Helvetica, sans-serif
      ;
  }
