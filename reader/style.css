@@ -24,7 +24,7 @@ body {
  }
  
  div.title {
-     font-size: 150px;
+     font-size: 170px;
    
      font-family: 'ImpactNew';
      text-transform: capitalize;
@@ -35,7 +35,7 @@ body {
  }
 
  div.things {
-    font-size: 150px;
+    font-size: 170px;
     color: blue;
     font-family: 'ImpactNew';
     text-transform: capitalize;
