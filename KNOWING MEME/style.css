@@ -106,3 +106,9 @@ div.fontcomic {
 div.uppercase {
     text-transform: uppercase;
 }
+
+div.popup1 {
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
