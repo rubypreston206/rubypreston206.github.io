@@ -1,0 +1,108 @@
+body {
+    background-color: white;
+    font-size: 36px;
+    margin: 0px;
+
+}
+
+ @font-face {
+    font-family: 'ImpactNew';
+    src: url("impact.ttf") format('truetype');
+ }
+
+ @font-face {
+    font-family: 'ComicNew';
+    src: url("COMIC.TTF") format('truetype');
+ }
+ 
+div {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col {
+outline: 2px solid red;
+height: 400px;
+padding: 10px;
+}
+
+div.width100 {
+    width: 100.0%;
+}
+
+div.width80 {
+    width:80%;
+}
+
+div.width66 {
+    width:66.666%;
+}
+
+div.width33 {
+    width: 33.333%;
+}
+
+div.width50 {
+    width:50%;
+}
+div.width25 {
+    width:25%;
+}
+
+div.width20 {
+    width: 20%;
+}
+
+
+div.height60 {
+    height: 60px;
+}
+
+div.height600 {
+    height: 600px;
+}
+
+div.menu {
+    background-color: aqua;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+}
+
+div.menu:hover {
+  background-color: red;
+  border-radius: 50%;
+  transition: 1s;
+  
+}
+
+div.textcenter {
+    text-align: center;
+}
+
+div.textaqua {
+    color: aqua;
+}
+
+div.fontimpact {
+    font-family: 'ImpactNew';
+}
+
+div.fontcomic {
+    font-family: 'ComicNew';
+}
+
+div.uppercase {
+    text-transform: uppercase;
+}
