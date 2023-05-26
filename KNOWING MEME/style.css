@@ -115,6 +115,10 @@ div.largefont {
     font-size: 100px;
 }
 
+div.extralargefont {
+    font-size: 160px;
+}
+
 div.banner {
     font-size:36px;
     background-color: red;
