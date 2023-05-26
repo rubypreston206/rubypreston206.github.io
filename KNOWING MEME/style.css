@@ -66,6 +66,10 @@ div.height60 {
     height: 60px;
 }
 
+div.height200 {
+    height: 200px;
+}
+
 div.height600 {
     height: 600px;
 }
@@ -105,6 +109,10 @@ div.fontcomic {
 
 div.uppercase {
     text-transform: uppercase;
+}
+
+div.largefont {
+    font-size: 100px;
 }
 
 div.banner {
