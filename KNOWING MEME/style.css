@@ -17,6 +17,7 @@ body {
  
 div {
     box-sizing: border-box;
+
 }
 
 img {
@@ -26,10 +27,12 @@ img {
 div.row {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 div.col {
 outline: 2px;
+
 padding: 10px;
 }
 
@@ -153,8 +156,8 @@ div.border {
   div.stuck {
   /*  all of this doesn't effect that position sticky  */
     margin-top: 40px;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
   
     
   /*  add this, it says, when the div comes into view "stick" to the page at this place  */
@@ -168,8 +171,8 @@ div.border {
   div.stuck2 {
     /*  all of this doesn't effect that position sticky  */
       margin-top: 40px;
-      width: 600px;
-      height: 600px;
+      width: 500px;
+      height: 500px;
     
       
     /*  add this, it says, when the div comes into view "stick" to the page at this place  */
