@@ -1,13 +1,13 @@
 body {
-    background-color: white;
+    background-color: burlywood;
     font-size: 36px;
     margin: 0px;
 
 }
 
  @font-face {
-    font-family: 'ImpactNew';
-    src: url("impact.ttf") format('truetype');
+    font-family: 'Times New Roman', Times, serif;
+  
  }
 
  @font-face {
