@@ -147,3 +147,34 @@ div.border {
     border-color: blue;
     
 }
+
+
+  
+  div.stuck {
+  /*  all of this doesn't effect that position sticky  */
+    margin-top: 40px;
+    width: 600px;
+    height: 600px;
+  
+    
+  /*  add this, it says, when the div comes into view "stick" to the page at this place  */
+    
+    position: sticky;
+    top:20px;
+    left: 1000px;
+  }
+  
+
+  div.stuck2 {
+    /*  all of this doesn't effect that position sticky  */
+      margin-top: 40px;
+      width: 600px;
+      height: 600px;
+    
+      
+    /*  add this, it says, when the div comes into view "stick" to the page at this place  */
+      
+      position: sticky;
+      top:20px;
+      left: 0px;
+    }
