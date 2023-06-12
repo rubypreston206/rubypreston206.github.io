@@ -123,6 +123,10 @@ div.uppercase {
     text-transform: uppercase;
 }
 
+div.smallfont {
+    font-size: 10px;
+}
+
 div.mediumfont {
     font-size: 60px;
 }
